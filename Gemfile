@@ -33,7 +33,8 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'capistrano-rails', group: :development
 
 # For Admin
-gem 'typus'
+gem 'typus', github: 'typus/typus' # Rails 4.1以降はこの書き方でなければならない
+gem 'devise'
 gem 'cancancan'
 
 group :development, :test do
